@@ -14,14 +14,14 @@ This project is a good head string to start.
 2: Use npm to install required packages for our nodejs packages
 
 ```bash
-    npm -i
-    npm run build
+  npm -i
+  npm run build
 ```
 
 3: use django-admin command to create new app.
 
 ```bash
-    django-admin startapp YOUR_APP_NAME
+  django-admin startapp YOUR_APP_NAME
 ```
 
 4: migrate all necessary ORM database:
