@@ -40,7 +40,7 @@ ROOT_URLCONF = 'home.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'build')],
+        'DIRS': [os.path.join(BASE_DIR, 'build')], # If you dont want to use reactjs simply rewrite this line with 'DIRS': []
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
